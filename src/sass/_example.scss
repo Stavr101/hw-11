@@ -28,9 +28,9 @@
 }
 
 .container {
-  width: 1800px;
-  // padding-left: 10px;
-  // padding-right: 10px;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .form-container {
@@ -44,3 +44,14 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  flex-basis: calc((100% - 20px) / 4);
+}
+// .photo-card {
+//   // width: 250px;
+//   // margin: 30px;
+// }
